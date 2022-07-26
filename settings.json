@@ -1,0 +1,100 @@
+{
+  // configurações do editor vscode
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "gutter",
+  "editor.tabSize": 2,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.lineHeight": 20,
+  "editor.fontSize": 14,
+  "editor.suggestSelection": "first",
+  "editor.largeFileOptimizations": false,
+  "editor.formatOnSave": true,
+
+  // configurações do prettier
+  "prettier.requireConfig": true,
+
+  // configurações do tabnine
+  "tabnine.experimentalAutoImports": true,
+
+  // configurações do gitlens
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.currentLine.format": "${author},${agoOrDate}${' via 'pullRequest}${ • message|50?}",
+  "gitlens.currentLine.enabled": false,
+
+  // configurações do python
+  "python.defaultInterpreterPath": "C:\\Users\\lurlian\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+  "python.formatting.provider": "black",
+
+  // configurações do ambiente do vscode
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.editor.untitled.hint": "hidden",
+
+  "explorer.confirmDragAndDrop": false,
+
+  "emmet.triggerExpansionOnTab": true,
+
+  // configurações do blade no laravel
+  "blade.format.enable": true,
+
+  // configurações dos tipos de arquivo
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
+  },
+
+  // configurações de formatação dos principais arquivos usados
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+
+  // configurações do terminal integrado do vscode
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "PowerShell 7": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+    }
+  }
+}
